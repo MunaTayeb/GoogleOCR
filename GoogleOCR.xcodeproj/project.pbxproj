@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E8687991E71EC8700F556CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8687981E71EC8700F556CE /* AppDelegate.swift */; };
+		6E86879B1E71EC8700F556CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E86879A1E71EC8700F556CE /* ViewController.swift */; };
+		6E86879E1E71EC8700F556CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E86879C1E71EC8700F556CE /* Main.storyboard */; };
+		6E8687A01E71EC8700F556CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E86879F1E71EC8700F556CE /* Assets.xcassets */; };
+		6E8687A31E71EC8700F556CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E8687A11E71EC8700F556CE /* LaunchScreen.storyboard */; };
+		6E8687AE1E71EC8700F556CE /* GoogleOCRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8687AD1E71EC8700F556CE /* GoogleOCRTests.swift */; };
+		6E8687B91E71EC8700F556CE /* GoogleOCRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8687B81E71EC8700F556CE /* GoogleOCRUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E8687AA1E71EC8700F556CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E86878D1E71EC8700F556CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E8687941E71EC8700F556CE;
+			remoteInfo = GoogleOCR;
+		};
+		6E8687B51E71EC8700F556CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E86878D1E71EC8700F556CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E8687941E71EC8700F556CE;
+			remoteInfo = GoogleOCR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E8687951E71EC8700F556CE /* GoogleOCR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleOCR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8687981E71EC8700F556CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E86879A1E71EC8700F556CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E86879D1E71EC8700F556CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E86879F1E71EC8700F556CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E8687A21E71EC8700F556CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E8687A41E71EC8700F556CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E8687A91E71EC8700F556CE /* GoogleOCRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleOCRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8687AD1E71EC8700F556CE /* GoogleOCRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleOCRTests.swift; sourceTree = "<group>"; };
+		6E8687AF1E71EC8700F556CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E8687B41E71EC8700F556CE /* GoogleOCRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleOCRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E8687B81E71EC8700F556CE /* GoogleOCRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleOCRUITests.swift; sourceTree = "<group>"; };
+		6E8687BA1E71EC8700F556CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E8687921E71EC8700F556CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8687A61E71EC8700F556CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8687B11E71EC8700F556CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E86878C1E71EC8700F556CE = {
+			isa = PBXGroup;
+			children = (
+				6E8687971E71EC8700F556CE /* GoogleOCR */,
+				6E8687AC1E71EC8700F556CE /* GoogleOCRTests */,
+				6E8687B71E71EC8700F556CE /* GoogleOCRUITests */,
+				6E8687961E71EC8700F556CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E8687961E71EC8700F556CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E8687951E71EC8700F556CE /* GoogleOCR.app */,
+				6E8687A91E71EC8700F556CE /* GoogleOCRTests.xctest */,
+				6E8687B41E71EC8700F556CE /* GoogleOCRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E8687971E71EC8700F556CE /* GoogleOCR */ = {
+			isa = PBXGroup;
+			children = (
+				6E8687981E71EC8700F556CE /* AppDelegate.swift */,
+				6E86879A1E71EC8700F556CE /* ViewController.swift */,
+				6E86879C1E71EC8700F556CE /* Main.storyboard */,
+				6E86879F1E71EC8700F556CE /* Assets.xcassets */,
+				6E8687A11E71EC8700F556CE /* LaunchScreen.storyboard */,
+				6E8687A41E71EC8700F556CE /* Info.plist */,
+			);
+			path = GoogleOCR;
+			sourceTree = "<group>";
+		};
+		6E8687AC1E71EC8700F556CE /* GoogleOCRTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E8687AD1E71EC8700F556CE /* GoogleOCRTests.swift */,
+				6E8687AF1E71EC8700F556CE /* Info.plist */,
+			);
+			path = GoogleOCRTests;
+			sourceTree = "<group>";
+		};
+		6E8687B71E71EC8700F556CE /* GoogleOCRUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E8687B81E71EC8700F556CE /* GoogleOCRUITests.swift */,
+				6E8687BA1E71EC8700F556CE /* Info.plist */,
+			);
+			path = GoogleOCRUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E8687941E71EC8700F556CE /* GoogleOCR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E8687BD1E71EC8700F556CE /* Build configuration list for PBXNativeTarget "GoogleOCR" */;
+			buildPhases = (
+				6E8687911E71EC8700F556CE /* Sources */,
+				6E8687921E71EC8700F556CE /* Frameworks */,
+				6E8687931E71EC8700F556CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleOCR;
+			productName = GoogleOCR;
+			productReference = 6E8687951E71EC8700F556CE /* GoogleOCR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E8687A81E71EC8700F556CE /* GoogleOCRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E8687C01E71EC8700F556CE /* Build configuration list for PBXNativeTarget "GoogleOCRTests" */;
+			buildPhases = (
+				6E8687A51E71EC8700F556CE /* Sources */,
+				6E8687A61E71EC8700F556CE /* Frameworks */,
+				6E8687A71E71EC8700F556CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E8687AB1E71EC8700F556CE /* PBXTargetDependency */,
+			);
+			name = GoogleOCRTests;
+			productName = GoogleOCRTests;
+			productReference = 6E8687A91E71EC8700F556CE /* GoogleOCRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E8687B31E71EC8700F556CE /* GoogleOCRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E8687C31E71EC8700F556CE /* Build configuration list for PBXNativeTarget "GoogleOCRUITests" */;
+			buildPhases = (
+				6E8687B01E71EC8700F556CE /* Sources */,
+				6E8687B11E71EC8700F556CE /* Frameworks */,
+				6E8687B21E71EC8700F556CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E8687B61E71EC8700F556CE /* PBXTargetDependency */,
+			);
+			name = GoogleOCRUITests;
+			productName = GoogleOCRUITests;
+			productReference = 6E8687B41E71EC8700F556CE /* GoogleOCRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E86878D1E71EC8700F556CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Muna Tayeb";
+				TargetAttributes = {
+					6E8687941E71EC8700F556CE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UJBAN7AJ77;
+						ProvisioningStyle = Automatic;
+					};
+					6E8687A81E71EC8700F556CE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UJBAN7AJ77;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E8687941E71EC8700F556CE;
+					};
+					6E8687B31E71EC8700F556CE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UJBAN7AJ77;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E8687941E71EC8700F556CE;
+					};
+				};
+			};
+			buildConfigurationList = 6E8687901E71EC8700F556CE /* Build configuration list for PBXProject "GoogleOCR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E86878C1E71EC8700F556CE;
+			productRefGroup = 6E8687961E71EC8700F556CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E8687941E71EC8700F556CE /* GoogleOCR */,
+				6E8687A81E71EC8700F556CE /* GoogleOCRTests */,
+				6E8687B31E71EC8700F556CE /* GoogleOCRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E8687931E71EC8700F556CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8687A31E71EC8700F556CE /* LaunchScreen.storyboard in Resources */,
+				6E8687A01E71EC8700F556CE /* Assets.xcassets in Resources */,
+				6E86879E1E71EC8700F556CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8687A71E71EC8700F556CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8687B21E71EC8700F556CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E8687911E71EC8700F556CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E86879B1E71EC8700F556CE /* ViewController.swift in Sources */,
+				6E8687991E71EC8700F556CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8687A51E71EC8700F556CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8687AE1E71EC8700F556CE /* GoogleOCRTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8687B01E71EC8700F556CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8687B91E71EC8700F556CE /* GoogleOCRUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E8687AB1E71EC8700F556CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E8687941E71EC8700F556CE /* GoogleOCR */;
+			targetProxy = 6E8687AA1E71EC8700F556CE /* PBXContainerItemProxy */;
+		};
+		6E8687B61E71EC8700F556CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E8687941E71EC8700F556CE /* GoogleOCR */;
+			targetProxy = 6E8687B51E71EC8700F556CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E86879C1E71EC8700F556CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E86879D1E71EC8700F556CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E8687A11E71EC8700F556CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E8687A21E71EC8700F556CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E8687BB1E71EC8700F556CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E8687BC1E71EC8700F556CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E8687BE1E71EC8700F556CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UJBAN7AJ77;
+				INFOPLIST_FILE = GoogleOCR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Senior.Nateq.GoogleOCR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6E8687BF1E71EC8700F556CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UJBAN7AJ77;
+				INFOPLIST_FILE = GoogleOCR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Senior.Nateq.GoogleOCR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6E8687C11E71EC8700F556CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UJBAN7AJ77;
+				INFOPLIST_FILE = GoogleOCRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Senior.Nateq.GoogleOCRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleOCR.app/GoogleOCR";
+			};
+			name = Debug;
+		};
+		6E8687C21E71EC8700F556CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UJBAN7AJ77;
+				INFOPLIST_FILE = GoogleOCRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Senior.Nateq.GoogleOCRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleOCR.app/GoogleOCR";
+			};
+			name = Release;
+		};
+		6E8687C41E71EC8700F556CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UJBAN7AJ77;
+				INFOPLIST_FILE = GoogleOCRUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Senior.Nateq.GoogleOCRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GoogleOCR;
+			};
+			name = Debug;
+		};
+		6E8687C51E71EC8700F556CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = UJBAN7AJ77;
+				INFOPLIST_FILE = GoogleOCRUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Senior.Nateq.GoogleOCRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GoogleOCR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E8687901E71EC8700F556CE /* Build configuration list for PBXProject "GoogleOCR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E8687BB1E71EC8700F556CE /* Debug */,
+				6E8687BC1E71EC8700F556CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E8687BD1E71EC8700F556CE /* Build configuration list for PBXNativeTarget "GoogleOCR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E8687BE1E71EC8700F556CE /* Debug */,
+				6E8687BF1E71EC8700F556CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6E8687C01E71EC8700F556CE /* Build configuration list for PBXNativeTarget "GoogleOCRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E8687C11E71EC8700F556CE /* Debug */,
+				6E8687C21E71EC8700F556CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6E8687C31E71EC8700F556CE /* Build configuration list for PBXNativeTarget "GoogleOCRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E8687C41E71EC8700F556CE /* Debug */,
+				6E8687C51E71EC8700F556CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E86878D1E71EC8700F556CE /* Project object */;
+}

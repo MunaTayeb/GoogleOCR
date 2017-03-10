@@ -14,6 +14,7 @@
 		6E8687A31E71EC8700F556CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E8687A11E71EC8700F556CE /* LaunchScreen.storyboard */; };
 		6E8687AE1E71EC8700F556CE /* GoogleOCRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8687AD1E71EC8700F556CE /* GoogleOCRTests.swift */; };
 		6E8687B91E71EC8700F556CE /* GoogleOCRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8687B81E71EC8700F556CE /* GoogleOCRUITests.swift */; };
+		EF97FF50E2A4CF6DA6940FF6 /* Pods_GoogleOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B7E4634F5091B7ABC8178D /* Pods_GoogleOCR.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49DB2E30D3CE2B6EF767B20D /* Pods-GoogleOCR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleOCR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleOCR/Pods-GoogleOCR.debug.xcconfig"; sourceTree = "<group>"; };
 		6E8687951E71EC8700F556CE /* GoogleOCR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleOCR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E8687981E71EC8700F556CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E86879A1E71EC8700F556CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		6E8687B41E71EC8700F556CE /* GoogleOCRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleOCRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E8687B81E71EC8700F556CE /* GoogleOCRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleOCRUITests.swift; sourceTree = "<group>"; };
 		6E8687BA1E71EC8700F556CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1B7E4634F5091B7ABC8178D /* Pods_GoogleOCR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleOCR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B648DDD9CFC0D19F8095EC /* Pods-GoogleOCR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleOCR.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleOCR/Pods-GoogleOCR.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF97FF50E2A4CF6DA6940FF6 /* Pods_GoogleOCR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,8 @@
 				6E8687AC1E71EC8700F556CE /* GoogleOCRTests */,
 				6E8687B71E71EC8700F556CE /* GoogleOCRUITests */,
 				6E8687961E71EC8700F556CE /* Products */,
+				D54875A9A896DA7A83336B95 /* Pods */,
+				784D4E44D7D86BFBA48A85F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +132,23 @@
 			path = GoogleOCRUITests;
 			sourceTree = "<group>";
 		};
+		784D4E44D7D86BFBA48A85F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1B7E4634F5091B7ABC8178D /* Pods_GoogleOCR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D54875A9A896DA7A83336B95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49DB2E30D3CE2B6EF767B20D /* Pods-GoogleOCR.debug.xcconfig */,
+				C3B648DDD9CFC0D19F8095EC /* Pods-GoogleOCR.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E8687BD1E71EC8700F556CE /* Build configuration list for PBXNativeTarget "GoogleOCR" */;
 			buildPhases = (
+				CBAB47FA26535B964C706DD9 /* [CP] Check Pods Manifest.lock */,
 				6E8687911E71EC8700F556CE /* Sources */,
 				6E8687921E71EC8700F556CE /* Frameworks */,
 				6E8687931E71EC8700F556CE /* Resources */,
+				0078459E9E9DFFAD1387DB4D /* [CP] Embed Pods Frameworks */,
+				93DC19C8B55FAE2E539F1D50 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +283,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0078459E9E9DFFAD1387DB4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleOCR/Pods-GoogleOCR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93DC19C8B55FAE2E539F1D50 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleOCR/Pods-GoogleOCR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBAB47FA26535B964C706DD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6E8687911E71EC8700F556CE /* Sources */ = {
@@ -413,6 +488,7 @@
 		};
 		6E8687BE1E71EC8700F556CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49DB2E30D3CE2B6EF767B20D /* Pods-GoogleOCR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UJBAN7AJ77;
@@ -426,6 +502,7 @@
 		};
 		6E8687BF1E71EC8700F556CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3B648DDD9CFC0D19F8095EC /* Pods-GoogleOCR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UJBAN7AJ77;
